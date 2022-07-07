@@ -2,6 +2,10 @@
 
 ## Problem Objective
 To get the best and worst state in the US to retire after service years.
+## Tools
+- Microsoft PowerBI for analysis and visualization.
+- Brackets for Markdown
+
 ## Data Sourcing
 The table containing the different states and their various ranking was gotten from [The best and worst states for retirement 2021](https://www.bankrate.com/retirement/best-and-worst-states-for-retirement/#3). While information on the state like capital ,abbreviation e.t.c, was gotten from [List of states and territories of the United States](https://en.wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States)
 ## Data Transformation
