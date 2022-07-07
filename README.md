@@ -33,5 +33,6 @@ Each state has its own peculiarity, pros and cons. For example, Tennesse boasts 
 
 Other factors that can affect one's decision is closeness to family, access to medical care e.t.c
 
-![best and worst state 1](https://user-images.githubuserc![best and worst state 2](https://user-images.githubusercontent.com/90080523/177680761-f131ab5e-858b-4d26-b465-ebd748652424.png)
-ontent.com/90080523/177680743-8ceffb36-5f6f-4ce8-b08a-6a6ea00ddf42.png)
+![Report page 1](https://github.com/Zion-Zion/Analysis-on-States-for-Retirements-in-the-US/blob/main/best%20and%20worst%20state%201.png)
+
+![Report page 2](https://github.com/Zion-Zion/Analysis-on-States-for-Retirements-in-the-US/blob/main/best%20and%20worst%20state%202.png)
