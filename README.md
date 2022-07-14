@@ -32,23 +32,27 @@ The table containing the different states and their various ranking was gotten f
 
 ### Merge
 -  A new 'Complete Table' was created by merging Table_Rank and Table_Info on the States column using `Left Join`
-- A new column, Population density was created using:
 
-`Population density = 'Complete Table'[Population] / ('Complete Table'[Land area (Km²)])`
 
 
 ![Merged Table](https://github.com/Zion-Zion/Analysis-on-States-for-Retirements-in-the-US/blob/main/Complete%20Table.png)
 
 ## Data Model
 
-The data model for the analysis is pretty straightforward. The three tables are linked together in a one-to-one relationship by the State column
+The data model for the analysis is pretty straightforward. The three tables are linked together in a one-to-one relationship by the State column. Also, a new measure, Population density was created in the complete table using:
+
+`Population density = 'Complete Table'[Population] / ('Complete Table'[Land area (Km²)])`
+
+
 ![Data Model](https://github.com/Zion-Zion/Analysis-on-States-for-Retirements-in-the-US/blob/main/Data%20model.png)
 
 ## Findings and recommendation
 
 Georgia, Florida, Tennese, Missouri and Wyoming top the list  for the best states when all categories are combined. However, each state has its own peculiarity, pros and cons. For example, Tennesse boasts of the best affordability, but its crime rate is better than just 5 states.
 
-- For
+- For persons seeking a place with a pocket friendly way of life, Tennessee, Oklahoma should be their dream state, while States like California, Connecticut and Hawaii should be avoided.
+- States like New Hampshire, Maine and New Jersey can be called the Safe Haven of the country. They have very low crime rate as compared to Louisiana, Alaska and New Mexico on the other end of the spectrum.
+- For persons that enjoy arts, entaertainment, culture and the likes, States like Maine, Montana and Vermont are the best for retirement. Utah, Mississippi and Texas hardly possess such 
 
 Other factors that can affect one's decision is closeness to family, access to medical care e.t.c
 
