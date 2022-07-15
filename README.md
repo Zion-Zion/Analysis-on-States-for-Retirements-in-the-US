@@ -13,7 +13,7 @@ After service years, civil servants, entrepreneurs, employers and employees usua
 ## Data Sourcing
 The table containing the different states and their various ranking was gotten from [The best and worst states for retirement 2021](https://www.bankrate.com/retirement/best-and-worst-states-for-retirement/#3). While information on the state like capital ,abbreviation e.t.c, was gotten from [List of states and territories of the United States](https://en.wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States)
 ## Data Transformation
-> The table for ranks will now be reffered to as Table_Rank while that of State information will be reffered to as Table_Info
+> The table for ranks will now be reffered to as **Table_Rank** while that of State information will be reffered to as **Table_Info**.
 
 #### For Table_Rank;
 - Duplicates were removed.
@@ -21,14 +21,14 @@ The table containing the different states and their various ranking was gotten f
 - A new index column was created with 1 as starting point and an increment value of 1. This new column was renamed to replace the 'Overall Rank' column (since duplicates have being removed).
 - The data type of each column was changed to the appropriate type with respect to the column content.
 
-![Ranked States](https://github.com/Zion-Zion/Analysis-on-States-for-Retirements-in-the-US/blob/main/Table_rank%20(2).png)
+![Ranked States](https://github.com/Zion-Zion/Analysis-on-States-for-Retirements-in-the-US/blob/main/Table_Rank.png)
 
 #### For Table_Info;
 - The first row which contained some unneccessary information was removed.
 - The '`[D]`' which was found at the end of the names of some states was removed using the Replace value function.
 - Unimportant columns were removed.
 - The columns left were renamed for improved readability.
-![State Info](https://github.com/Zion-Zion/Analysis-on-States-for-Retirements-in-the-US/blob/main/Table_Info%20(2).png)
+![State Info](https://github.com/Zion-Zion/Analysis-on-States-for-Retirements-in-the-US/blob/main/Table_Info.png)
 
 ### Merge
 -  A new 'Complete Table' was created by merging Table_Rank and Table_Info on the States column using `Left Join`
@@ -50,12 +50,15 @@ The data model for the analysis is pretty straightforward. The three tables are 
 
 Georgia, Florida, Tennese, Missouri and Wyoming top the list  for the best states when all categories are combined. However, each state has its own peculiarity, pros and cons. For example, Tennesse boasts of the best affordability, but its crime rate is better than just 5 states.
 
-- For persons seeking a place with a pocket friendly way of life, Tennessee, Oklahoma should be their dream state, while States like California, Connecticut and Hawaii should be avoided.
-- States like New Hampshire, Maine and New Jersey can be called the Safe Haven of the country. They have very low crime rate as compared to Louisiana, Alaska and New Mexico on the other end of the spectrum.
-- For persons that enjoy arts, entaertainment, culture and the likes, States like Maine, Montana and Vermont are the best for retirement. Utah, Mississippi and Texas hardly possess such 
-
-Other factors that can affect one's decision is closeness to family, access to medical care e.t.c
-
 ![Report page 1](https://github.com/Zion-Zion/Analysis-on-States-for-Retirements-in-the-US/blob/main/best%20and%20worst%20state%201.png)
 
+Looking at specifics, here are some here are some things to consider.
+- For persons seeking a place with a pocket friendly way of life, Tennessee, Oklahoma should be their dream state, while States like California, Connecticut and Hawaii should be avoided.
+- States like New Hampshire, Maine and New Jersey can be called the Safe Haven of the country. They have very low crime rate as compared to Louisiana, Alaska and New Mexico on the other end of the spectrum.
+- For persons that enjoy arts, entaertainment, culture and the likes, States like Maine, Montana and Vermont are the best for retirement. Utah, Mississippi and Texas do not possess such on a grand scheme of things.
+- Many are fans of a warm climate, however, this temperature factor isn't enough to rank a State for by weather. Other factors like occurence of tornadoes, landslides and so on affects it's overall rating. A state like Florida woul've taken a spot in top 2 if not for frequencies of Acts of God. Arizona, Kentuck and West Virgina top the list for good weather with Alaska, Wyoming and Maine sitting deep down the list.
+- Another factor that can influence one's decision is access to amenities,, health care, food, economic security. Massachuesetts, beautifl Hawaii and New Jersey are favourites in this regard with New Mexico, Arkansas and Mississippi being the least ranked States
+
 ![Report page 2](https://github.com/Zion-Zion/Analysis-on-States-for-Retirements-in-the-US/blob/main/best%20and%20worst%20state%202.png)
+
+
