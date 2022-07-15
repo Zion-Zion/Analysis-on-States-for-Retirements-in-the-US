@@ -13,7 +13,7 @@ After service years, civil servants, entrepreneurs, employers and employees usua
 ## Data Sourcing
 The table containing the different states and their various ranking was obtained from [The best and worst states for retirement 2021](https://www.bankrate.com/retirement/best-and-worst-states-for-retirement/#3). While the information on the States like capital, abbreviation e.t.c, was obtained from [List of states and territories of the United States](https://en.wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States)
 ## Data Transformation
-> The table for ranks will now be referred to as **Table_Rank** while that of State information will be referred to as **Table_Info**.
+> The tables have been renamed. The Table for ranks to **Table_Rank** while that of State information to **Table_Info**.
 
 #### For Table_Rank;
 - Duplicates were removed.
